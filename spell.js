@@ -18,8 +18,8 @@ function castSpell() {
 //added to make sure my other js scrolls and quests can easily become buttons
 function loadSQScript(src) {
             if(document.querySelector(`script[src="${src}"]`)) {return; }
-            const scriptN = document.createElement("script");
-            script.src = src;
-            srcript.defer = true;
-            document.body.appendChild(script);
+            const scriptN = document.createElement("scriptN");
+            scriptN.src = src;
+            srcriptN.defer = true;
+            document.body.appendChild(scriptN);
 }
