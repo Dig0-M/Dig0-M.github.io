@@ -20,6 +20,6 @@ function loadSQScript(src) {
             if(document.querySelector(`script[src="${src}"]`)) {return; }
             const scriptN = document.createElement("scriptN");
             scriptN.src = src;
-            srcriptN.defer = true;
+            scriptN.defer = true;
             document.body.appendChild(scriptN);
 }
