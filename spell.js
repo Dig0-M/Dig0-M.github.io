@@ -14,3 +14,12 @@ function castSpell() {
                 "Your First cast: " + (t2 - t1).toFixed(1) + " ms\n" +
                 "Your Second cast: " + (t3 - t2).toFixed(1) + " ms";
 }
+
+//added to make sure my other js scrolls and quests can easily become buttons
+function loadSQScript(src) {
+            if(document.querySelector(`script[src="${src}"]`)) {return; }
+            const scriptN = document.createElement("script");
+            script.src = src;
+            srcript.defer = true;
+            document.body.appendChild(script);
+}
