@@ -10,30 +10,35 @@
     <h1>Hello and Welcome to my Portal!</h1>
     <p>Here in my portal, you can find all my Scrolls and Quests to view. More updates will come to this portal soon!</p>
 
-    <div style="display: flex; flex-direction: row; gap: 40px;">
-        <div>
-            <h2>My Scrolls!</h2>
-            <div class="scroll-container">
-                <button onclick="castSpell()">Click To Cast a cool Spell!</button>
-                <p id="spellResult"></p>
-                <script src="spell.min.js"></script>
-                <button onclick="location.href='scroll2.html'">View my 2nd Scroll!</button>
-                <button onclick="location.href='scroll3.html'">View my 3rd Scroll!</button>
-                <button onclick="location.href='scroll4.html'">View my 4th Scroll!</button>
-                <button onclick="location.href='scroll5.html'">View my 5th Scroll!</button>
-            </div>
-        </div>
+
+    <div class="mainScrollQuestArea">
         
-        <div>
-            <h2>My Quests!!!</h2>
-            <div class="quest-container">
-                <button onclick="location.href='smilingFriend.html'">Quest 1: Check out my Smiling Friends Company!</button>
-                <button onclick="location.href='mySolarWorld.html'">Quest2: Check out my Solar World!</button>
-                <button onclick="location.href='myBreathingCity.html'">Quest3: TBA</button>
-                <button onclick="location.href='myParticles.html'">Quest4: TBA</button>
+        <div style="display: flex; flex-direction: row; gap: 40px;">
+            <div>
+                <h2>My Scrolls!</h2>
+                <div class="scroll-container">
+                    <button onclick="castSpell()">Click To Cast a cool Spell!</button>
+                    <p id="spellResult"></p>
+                    <script src="spell.min.js"></script>
+                    <button onclick="location.href='scroll2.html'">View my 2nd Scroll!</button>
+                    <button onclick="location.href='scroll3.html'">View my 3rd Scroll!</button>
+                    <button onclick="location.href='scroll4.html'">View my 4th Scroll!</button>
+                    <button onclick="location.href='scroll5.html'">View my 5th Scroll!</button>
+                </div>
             </div>
+            
+            <div>
+                <h2>My Quests!!!</h2>
+                <div class="quest-container">
+                    <button onclick="location.href='smilingFriend.html'">Quest 1: Check out my Smiling Friends Company!</button>
+                    <button onclick="location.href='mySolarWorld.html'">Quest2: Check out my Solar World!</button>
+                    <button onclick="location.href='myBreathingCity.html'">Quest3: TBA</button>
+                    <button onclick="location.href='myParticles.html'">Quest4: TBA</button>
+                </div>
+            </div>
+            
         </div>
-        
-    </div>
+
+    </div> <!-- End of mainScrollQuestClass -->
 </body>
 </html>
