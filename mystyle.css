@@ -7,3 +7,32 @@ html, body {
      background-color: #90D5FF;
      color: #ffffff;
  }
+/*Scrolls & quests*/
+.scroll-container, .quest-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    height: 80vh;
+    max-height: 500px;
+    
+    gap: 15px;
+    padding: 20px;
+    border: 2px dashed #ffffff;
+}
+
+button {
+    background-color: #0077B6;
+    color: #03045E;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: #5c3a37;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffd700;
+}
