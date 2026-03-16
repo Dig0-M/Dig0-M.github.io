@@ -54,7 +54,7 @@ var<private> tint_symbol_37_1 : vec3u;
 
 @group(0) @binding(3) var<uniform> tint_symbol_10 : tint_symbol_10_block;
 
-@group(0) @binding(0) var<storage, read_write> tint_symbol_13 : tint_symbol_13_block;
+@group(0) @binding(0) var<storage, read> tint_symbol_13 : tint_symbol_13_block;
 
 @group(0) @binding(1) var<storage, read_write> tint_symbol_14 : tint_symbol_13_block;
 
