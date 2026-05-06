@@ -136,7 +136,7 @@ var<private> tint_symbol_137_2 : vec3u;
 
 @group(0) @binding(2) var tint_symbol_104 : texture_storage_2d<rgba8unorm, write>;
 
-@group(0) @binding(3) var<storage, read_write> tint_symbol_105 : tint_symbol_105_block;
+@group(0) @binding(3) var<storage, read> tint_symbol_105 : tint_symbol_105_block;
 
 @group(0) @binding(4) var tint_symbol_106 : texture_2d<f32>;
 
